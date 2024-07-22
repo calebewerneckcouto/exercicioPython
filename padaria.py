@@ -31,7 +31,7 @@ while True:
         else:
             print("Não há clientes cadastrados.")
     elif opcao == "0":
-            cliente_sorteado = random.choice(cadastro_clientes)
+            cliente_sorteado = random.choices(cadastro_clientes)
             print(cadastro_clientes)
             print("O cliente sorteado foi:",cliente_sorteado, "ganhou um pão dormido....")
             break
